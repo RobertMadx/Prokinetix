@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  
+  .text_blue {
+    color: #022D4F;
+  }   
+  .text_lblue {
+    color: #02979D;
+  }
+  .text_white {
+    color: #fff;
+  }
+
+.big_logo {
+  line-height: 0.5;
+  
+}
+
+  .index_logo_txt {
+    display: inline-block;
+  }
+
+  .index_logo {
+    display: inline-block;
+  }
+
+  .logo_med{
+    width: 65px;
+    
+  }
+  
+header {
+    position: fixed;
+    background: #fff;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar {
+    border-radius: 0px;
+    height: 80px;
+    padding: 15px 0px 0px 0px;
+    margin-bottom: 0px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.navbar_logo {
+  background-color: #fff;
+  background-image: url("../img/ProKinetix_logo_med.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 65px auto !important;
+  text-align: center;
+  background-position: 50% 50%;
+}
+
+.nav {
+    background-color: #fff;
+}
+
+.navgap {
+    height: 110px;
+}
+
+.bookdiv {
+    background: #e6e6e6;
+    height: 30px;
+    text-align: right;
+    padding: 5px 0px 0px 0px;
+}
+.bookline {
+    color: #f05a1a;
+}
+.booklink {
+    color: #f05a1a;
+    font-weight: bold;
+  
+}
+.booklink:hover {
+  color: #f05a1a;
+}
+.booklink2 {
+  color: #fff;
+  font-weight: bold;
+  /*background-color: #fff;
+  padding: 5px;
+  border-radius: 10px; */
+}
+.booklink2:hover {
+  color: #fff;
+  
+}
+
+
+.small_logo {
+  float: left;
+  height: 35px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  /* color: #04969D !important; */
+  color: #fff !important;
+  background-color: #04969D !important;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.navbar-brand{
+  padding: 8px;
+}
+
+.footer {
+  background: #e6e6e6;
+  text-align: center;
+  padding: 10px;
+}
+.footer p{
+  margin: 0px;
+  color: #022D4F;
+}
+
+.jump_img{
+  width: 100%;
+}
+
+
+
+td, th {
+  vertical-align: middle !important;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #04969D;
+  color: #fff;
+}
+.home{
+  padding-top: 0px;
+}
+.fees{
+  background-image: url("../img/dumbbells-2465478_1920.jpg");
+  /* background-image: url("../img/physio-1778029_960_720.jpg"); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% auto !important;
+  text-align: center;
+  background-position: 50% 50%;
+}
+.fees > div{
+  background-color: rgba(255, 255, 255,0.7);
+  
+  margin: 0px;
+  padding: 20px 0px 100px 0px;
+}
+.table {
+  background-color: #fff;
+  color: #022D4F;
+}
+td {
+  text-align: center !important;
+}
+.appointments{
+  background-image: url("../img/time-273857_960_720.jpg");
+  
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% auto !important;
+  text-align: center;
+  background-position: 50% 50%;
+}
+.contact{
+  background-image: url("../img/desk-3076954_960_720.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% auto !important;
+  text-align: center;
+  background-position: 50% 75%;
+}
+.contact > div {
+  background-color: rgba(255, 255, 255,0.7);
+  padding-bottom: 20px;
+}
+
+
+.services{
+  background-image: url("../img/boy-elastic-rope-exercise-equipment-176794_50.jpg");
+  background-repeat: repeat-y;
+  /* background-size: cover; */
+  background-size: 100% auto !important;
+  text-align: center;
+}
+.services > div{
+  background-color: rgba(255, 255, 255,0.7);
+  margin: 0px;
+  padding: 20px 0px 100px 0px;
+}
+.therapy{
+  background-color: rgba(255, 255, 255,0.7);
+  background-color: #022D4F;
+  color: #fff;
+  height: 300px;
+  border-radius: 5px 0px 0px 50px;
+}
+.acc{
+  background-color: rgba(255, 255, 255,0.7);
+  background-color: #04969D;
+  color: #fff;
+  height: 300px;
+  border-radius: 0px 50px 5px 0px;
+}
+.AT{
+  /* background-image: url("../img/ProKinetix_logo_med.png"); */
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  /* background-size: cover; */
+  background-size: 150px auto !important;
+}
+.services {
+  color: #022D4F;
+}
+
+.panel{
+  margin-top: 20px;
+  border:none;
+}
+
+.panel-heading > h1, .panel-heading, .panel-footer{
+  background-color: #04969D !important;
+  color: #fff !important;
+}
+.ProKinetix {
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+.small_logo {
+  display: none;
+}
+.home_logo {
+  display: none;
+  padding-top: 20px;
+}
+.medium_logo{
+  display: none;
+  text-align: left;
+  padding: 15px;
+}
+.home_logo > p {
+  font-size: 13px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .therapy, .acc{
+    height: 350px;
+  }
+  .navbar_logo {
+    background-image: none;
+  }
+  
+}
+@media screen and (max-width: 990px) {
+  .therapy, .acc{
+    height: 430px;
+  }
+  
+  .big_logo {
+    display: none;
+  }
+  .medium_logo{
+    display: block;
+  }
+  .home_logo{
+    text-align: center;
+    display: block;
+  }
+  .ProKinetix{
+    font-size: 20px;
+  }
+  /* .small_logo {
+    display: block;
+  } */
+}
+@media screen and (max-width: 767px) {
+  .therapy, .acc{
+    border-radius: 0px 0px 0px 0px;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .AT{
+    background-image: none;
+  }
+  .therapy h1, .acc h1{
+    margin-top : 0px;
+  }
+  .fees{
+    background-position: 50% 30%;
+    background-size: 767px !important;
+  }
+  .fees > div{
+    padding: 0px 0px 0px 0px;
+  }
+  .appointments{
+    background-size: 767px !important;
+  }
+  .services > div{
+    padding: 0px 0px 0px 0px;
+  }
+  .contact {
+    background-image: none;
+  }
+  
+  
+}
+@media screen and (max-width: 360px) {
+
+}
